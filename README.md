@@ -36,10 +36,15 @@ This project applies **Modern Portfolio Theory (MPT)** — the Nobel Prize winni
 ### Individual Stock Performance (FY2022-FY2024)
 
 | Stock | Annual Return | Annual Risk | Risk-Return |
+
 | TCS | 32.54% | 19.14% | 🏆 Best |
+
 | ITC | 30.19% | 19.35% | ⭐ Strong |
+
 | Reliance | 9.01% | 21.89% | ⚠️ Weak |
+
 | Sun Pharma | 7.43% | 20.94% | ⚠️ Weak |
+
 | HDFC Bank | 5.89% | 22.62% | ❌ Poor |
 
 ---
