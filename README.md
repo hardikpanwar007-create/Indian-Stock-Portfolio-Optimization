@@ -192,9 +192,9 @@ Key principles:
 
 ## 👤 Author
 
-**[Your Name]**
-📧 your.email@gmail.com
-🔗 [LinkedIn](https://linkedin.com/in/yourprofile)
+**Hardik Parmar**
+📧 hardikpanwar007@gmail.com
+🔗 [LinkedIn](www.linkedin.com/in/hardiksinghparmar)
 
 ---
 
