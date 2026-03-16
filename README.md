@@ -21,11 +21,17 @@ This project applies **Modern Portfolio Theory (MPT)** — the Nobel Prize winni
 ## 🎯 Stocks Analysed
 
 | Stock | Sector | Ticker |
+
 | Reliance Industries | Conglomerate | RELIANCE.NS |
+
 | TCS | IT Services | TCS.NS |
+
 | HDFC Bank | Banking | HDFCBANK.NS |
+
 | ITC | FMCG | ITC.NS |
+
 | Sun Pharma | Pharma | SUNPHARMA.NS |
+
 
 > Stocks deliberately chosen from different sectors for maximum diversification benefit!
 
@@ -54,17 +60,25 @@ This project applies **Modern Portfolio Theory (MPT)** — the Nobel Prize winni
 > Best risk-adjusted return — maximizes return per unit of risk
 
 | Metric | Value |
+
 | Expected Annual Return | 29.26% |
+
 | Expected Annual Risk | 14.28% |
+
 | Sharpe Ratio | 1.59 |
 
 **Optimal Weights:**
 
 | Stock | Weight |
+
 | TCS | 51.35% |
+
 | ITC | 39.02% |
+
 | Reliance | 4.48% |
+
 | Sun Pharma | 4.31% |
+
 | HDFC Bank | 0.85% |
 
 ---
@@ -74,17 +88,26 @@ This project applies **Modern Portfolio Theory (MPT)** — the Nobel Prize winni
 > Safest portfolio — minimizes risk regardless of return
 
 | Metric | Value |
+
 | Expected Annual Return | 20.60% |
+
 | Expected Annual Risk | 12.81% |
 | Sharpe Ratio | 1.10 |
+
+
 
 **Optimal Weights:**
 
 | Stock | Weight |
+
 | TCS | 29.46% |
+
 | ITC | 24.64% |
+
 | Sun Pharma | 20.43% |
+
 | Reliance | 17.90% |
+
 | HDFC Bank | 7.57% |
 
 ---
@@ -92,10 +115,15 @@ This project applies **Modern Portfolio Theory (MPT)** — the Nobel Prize winni
 ## 🔍 Correlation Matrix
 
 | Reliance | 1.000 | 0.183 | 0.347 | 0.165 | 0.262 |
+
 | TCS | 0.183 | 1.000 | 0.303 | 0.226 | 0.186 |
+
 | HDFC Bank | 0.347 | 0.303 | 1.000 | 0.248 | 0.299 |
+
 | ITC | 0.165 | 0.226 | 0.248 | 1.000 | 0.244 |
+
 | Sun Pharma | 0.262 | 0.186 | 0.299 | 0.244 | 1.000 |
+
 
 > All correlations below 0.35 — confirming strong diversification benefit across sectors! ✅
 
@@ -161,11 +189,17 @@ def portfolio_volatility(weights):
 ## 🛠️ Tools & Libraries
 
 | Python 3.11 | Core programming language |
+
 | `yfinance` | Real-time NSE stock data download |
+
 | `pandas` | Data manipulation and analysis |
+
 | `numpy` | Matrix operations and math |
+
 | `matplotlib` | Efficient Frontier visualization |
+
 | `scipy` | Portfolio optimization solver |
+
 | `openpyxl` | Excel output generation |
 
 ---
